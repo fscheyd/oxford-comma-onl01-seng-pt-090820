@@ -3,6 +3,7 @@ require "pry"
 def oxford_comma(array)
   binding.pry
   if array.count == 1
-    puts
+    array.join
+  elsif array.count == 2
 end
 end
